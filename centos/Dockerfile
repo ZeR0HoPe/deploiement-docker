@@ -16,7 +16,7 @@ VOLUME [ "/sys/fs/cgroup" ]
 
 ### install & configure sshd
 
-RUN yum update -y && yum install -y libcgroup libcgroup-tools openssh-server
+RUN yum update -y && yum install -y python libcgroup libcgroup-tools openssh-server
 
 ### authorize by public key
 
