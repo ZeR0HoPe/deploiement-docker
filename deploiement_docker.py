@@ -4,9 +4,9 @@ import time
 
 """
 Deploiement labs docker
-Author :    Matthieu DEBRAY
+Author :    ZeR0Hope
 Dependancies :
-    - os, argparse
+    - os, argparse, time
     - docker and ansible in OS
 Release :   V0.1  10/2020
 """
