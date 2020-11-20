@@ -1,4 +1,4 @@
-FROM centos:latest
+FROM fedora:latest
 ENV container docker
 
 #### enabling systemd according to docs on: https://hub.docker.com/_/centos/
