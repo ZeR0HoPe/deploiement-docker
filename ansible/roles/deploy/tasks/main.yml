@@ -1,8 +1,0 @@
----
-  - name: Create default containers
-    docker_container:
-      name: "{{ container_name }}{{ item }}"
-      image: "{{ container_image }}"
-      state: started
-    with_sequence: count={{ count }}
-...
